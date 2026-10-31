@@ -1,0 +1,12 @@
+$kind: http-request
+name: http://127.0.0.1:3000/kelas/1/finalisasi
+description: ""
+url: http://127.0.0.1:3000/kelas/1/finalisasi
+method: POST
+headers:
+  Authorization: Bearer {{accessToken}}
+  X-Device-ID: "\tdevice-dosen1-001"
+body:
+  type: json
+  content: ""
+order: 9000

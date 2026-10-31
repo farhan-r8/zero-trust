@@ -1,0 +1,18 @@
+$kind: http-request
+name: http://127.0.0.1:3000/auth/login
+description: ""
+url: http://127.0.0.1:3000/auth/login
+method: POST
+headers:
+  Content-Type: "\tapplication/json"
+  X-Device-ID: "\tdevice-dosen2-001"
+body:
+  type: json
+  content: "{\r
+
+    \  \"username\": \"dosen2\",\r
+
+    \  \"password\": \"DosenDua!2026\"\r
+
+    }"
+order: 12000

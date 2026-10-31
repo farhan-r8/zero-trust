@@ -1,0 +1,16 @@
+$kind: http-request
+name: http://127.0.0.1:3000/auth/service
+description: ""
+url: http://127.0.0.1:3000/auth/service
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+      "clientId": "{{serviceClientId}}",
+      "clientSecret": "{{serviceClientSecret}}"
+    }
+order: 4000

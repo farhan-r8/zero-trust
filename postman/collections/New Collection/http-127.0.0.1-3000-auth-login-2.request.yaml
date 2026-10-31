@@ -1,0 +1,18 @@
+$kind: http-request
+name: http://127.0.0.1:3000/auth/login
+description: ""
+url: http://127.0.0.1:3000/auth/login
+method: POST
+headers:
+  Content-Type: " application/json"
+  X-Device-ID: " device-admin-001"
+body:
+  type: json
+  content: "{\r
+
+    \  \"username\": \"admin\",\r
+
+    \  \"password\": \"AdminDemo!2026\"\r
+
+    }"
+order: 11000

@@ -1,0 +1,13 @@
+$kind: http-request
+name: http://127.0.0.1:3000/nilai/3
+description: ""
+url: http://127.0.0.1:3000/nilai/3
+method: PUT
+headers:
+  Authorization: Bearer {{accessToken}}
+  X-Device-ID: "\tdevice-dosen1-001"
+  Content-Type: "\tapplication/json"
+body:
+  type: json
+  content: "{\r\n  \"score\": 95\r\n}"
+order: 8000

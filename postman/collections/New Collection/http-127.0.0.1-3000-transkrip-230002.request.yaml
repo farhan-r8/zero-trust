@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://127.0.0.1:3000/transkrip/230002
+description: ""
+url: http://127.0.0.1:3000/transkrip/230002
+method: GET
+headers:
+  Authorization: Bearer {{accessToken}}
+  X-Device-ID: device-mhs1-001
+order: 10000

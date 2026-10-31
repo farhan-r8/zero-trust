@@ -1,0 +1,15 @@
+$kind: http-request
+name: http://127.0.0.1:3000/auth/logout
+description: ""
+url: http://127.0.0.1:3000/auth/logout
+method: POST
+headers:
+  Content-Type: application/json
+  X-Device-ID: device-mhs1-001
+body:
+  type: json
+  content: |-
+    {
+      "refreshToken": "{{refreshToken}}"
+    }
+order: 3000

@@ -1,0 +1,11 @@
+$kind: http-request
+name: http://127.0.0.1:3000/nilai
+description: ""
+url: http://127.0.0.1:3000/nilai?classId=2
+method: GET
+headers:
+  Authorization: Bearer {{accessToken}}
+  X-Device-ID: " device-dosen2-001"
+queryParams:
+  classId: "2"
+order: 13000
